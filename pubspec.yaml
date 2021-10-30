@@ -1,0 +1,25 @@
+name: keyboardesk
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  new_keyboard_shortcuts: ^0.1.4
+  desktop_drop: ^0.1.1
+  path_provider: ^2.0.6
+  mime: ^1.0.1
+  get: ^4.3.8
+  language_tool: ^2.0.0
+  process_run: ^0.12.2+2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+flutter:
+  uses-material-design: true
